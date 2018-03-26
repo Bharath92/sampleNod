@@ -1,6 +1,9 @@
 # Language setting
 language: node_js
 
+runtime:
+  nodePool: u16custom
+
 # Version number
 node_js:
   - 6.11
