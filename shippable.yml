@@ -11,12 +11,12 @@ node_js:
 
 build:
   pre_ci_boot:
-    image_name: drydock/u16nodall
-    image_tag: v5.7.3
-    pull: true
-    #image_name: gvancuts/clearlinux-acrn-build
-    #image_tag: latest
+    #image_name: drydock/u16nodall
+    #image_tag: v5.7.3
     #pull: true
+    image_name: gvancuts/clearlinux-acrn-build
+    image_tag: latest
+    pull: true
 
   
   ci:
