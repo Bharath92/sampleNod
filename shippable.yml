@@ -6,12 +6,12 @@ runtime:
 
 build:
   pre_ci_boot:
-    #image_name: gvancuts/clearlinux-acrn-build
-    #image_tag: latest
-    #pull: true
-    image_name: clearlinux-git-ignore-ssl
-    image_tag: dev
-    pull: false
+    image_name: gvancuts/clearlinux-acrn-build
+    image_tag: latest
+    pull: true
+    #image_name: clearlinux-git-ignore-ssl
+    #image_tag: dev
+    #pull: false
   
   ci:
     - openssl version
