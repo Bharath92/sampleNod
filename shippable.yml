@@ -16,4 +16,5 @@ build:
     pull: false
   
   ci:
+    - which jq
     - vim --version
