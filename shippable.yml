@@ -9,9 +9,11 @@ build:
     #image_name: gvancuts/clearlinux-acrn-build
     #image_tag: latest
     #pull: true
-    image_name: clearlinux-git-ignore-ssl
+    #image_name: clearlinux-git-ignore-ssl
+    #image_tag: dev
+    image_name: microbase-without-jq
     image_tag: dev
     pull: false
   
   ci:
-    - openssl version
+    - jq -v
